@@ -1,0 +1,314 @@
+<!DOCTYPE html >
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Sofa Safari</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <div class="h-screen bg-[url('images/background.jpg')] bg-center bg-cover px-10 py-5 relative max-h-full">
+        <nav class="flex flex-wrap items-center ">
+            <img src="images/sofa-safari-logo.png" alt="Logo" class="w-40 cursor-pointer ">
+            <ul class="flex-1 text-right">
+                <li class="list-none inline-block px-5 "><a href="#" class="no-underline text-black px-2">Home</a></li>
+                <li class="list-none inline-block px-5 "><a href="#about" class="no-underline text-black px-2">About
+                        Us</a>
+                </li>
+                <li class="list-none inline-block px-5 "><a href="#Gallery" class="no-underline text-black px-2">Gallery</a>
+                </li>
+                <li class="list-none inline-block px-5"><a href="#Contact" class="no-underline text-black px-2">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="text-black mt-36 ">
+            <h1 class="text-5xl font-semibold leading-normal">Furnitures <br>Get Luxurious <span
+                    class="font-light">Furnitures Here</span> </h1>
+            <p>Sofa Safari is a place where one can get luxurious furnitures ranging from Sofas, Wardrobes, Beds and
+                many more at a very reasonable price.</p>
+
+            <div>
+                <a href="#"
+                    class="bg-yellow-200 rounded-2xl py-5 px-10 font-medium inline-block mr-4 mt-5 hover:bg-transparent hover:border-yellow-200 hover:text-blue-500 duration-300 hover:border border-transparent">Order
+                    Now</a>
+                <a href="#" class="">Download App <span class="text-lg inline-block rotate-90">&#10148;</span></a>
+
+            </div>
+        </div>
+    </div>
+
+    <div id ='about' class="my-20 bg-white bg-center bg-cover px-10 py-15 relative">
+        <h1 class="text-left text-5xl font-semibold leading-tight px-15 py-10">About Us</h1>
+        <p class="py-10 text-left text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus eaque,
+            corrupti,ducimus cum vitae quam magni dicta ea corporis consequuntur ipsum odio quod iure possimus! Nesciunt
+            molestiae incidunt laudantium nihil. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur
+            quaerat maxime tempora laboriosam atque saepe repellat blanditiis praesentium, nostrum laborum animi rerum
+            nobis quod itaque, autem illo. Magnam, quas incidunt? Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit. Magnam tempore nisi quibusdam mollitia sint iusto non soluta possimus! Veritatis nostrum dolorem
+            laudantium in esse amet asperiores cupiditate fugit, ducimus placeat. Lorem ipsum dolor, sit amet
+            consectetur adipisicing elit. Nostrum voluptate ea quae sint? Deserunt explicabo eos totam, aut perspiciatis
+            quam, aliquid eius est id eum laboriosam culpa. Libero, eveniet asperiores!</p>
+    </div>
+    <div id="Gallery" class="slideshow">
+        <div class="slider">
+            <img src="Images/Features/1.jpg" />
+            <img src="Images/Features/2.JPG" />
+            <img src="Images/Features/3.JPG" />
+            <img src="Images/Features/4.JPG" />
+            <img src="Images/Features/5.JPG" />
+            <img src="Images/Features/6.JPG" />
+            <img src="Images/Features/7.JPG" />
+            <img src="Images/Features/8.JPG" />
+            <img src="Images/Features/9.JPG" />
+            <img src="Images/Features/10.JPG" />
+
+        </div>
+    </div>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+    <script src="./script.js"></script>
+    <!-- <div class="container">
+
+        
+        <div class="mySlides">
+            <div class="numbertext">1 / 10</div>
+            <img src="images/Features/1.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">2 / 10</div>
+            <img src="images/Features/2.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">3 / 10</div>
+            <img src="images/Features/3.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">4 / 10</div>
+            <img src="images/Features/4.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">5 / 10</div>
+            <img src="images/Features/5.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">6 / 10</div>
+            <img src="images/Features/6.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">7 / 10</div>
+            <img src="images/Features/7.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">8 / 10</div>
+            <img src="images/Features/8.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">9 / 10</div>
+            <img src="images/Features/9.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">10 / 10</div>
+            <img src="images/Features/10.jpg" style="width:100%">
+        </div>
+
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="images/Features/1.jpg" style="width:100%" onclick="currentSlide(1)"
+                    Models">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/Features/2.jpg" style="width:100%" onclick="currentSlide(2)"
+                    alModels">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/Features/3.jpg" style="width:100%" onclick="currentSlide(3)"
+                    alt="Mountains and fjords">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/Features/4.jpg" style="width:100%" onclick="currentSlide(4)"
+                    alt="Models">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/Features/5.jpg" style="width:100%" onclick="currentSlide(5)"
+                    alt="NatModels">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/Features/6.jpg" style="width:100%" onclick="currentSlide(6)"
+                    alt="Models">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/Features/7.jpg" style="width:100%" onclick="currentSlide(6)"
+                    alt="Models">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/Features/8.jpg" style="width:100%" onclick="currentSlide(6)"
+                    alt="Models">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/Features/9.jpg" style="width:100%" onclick="currentSlide(6)"
+                    alt="Models">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/Features/10.jpg" style="width:100%" onclick="currentSlide(6)"
+                    alt="Models">
+            </div>
+        </div>
+    </div>
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("demo");
+            let captionText = document.getElementById("caption");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+    // </script> -->
+
+
+    <form id="Contact" class="m-auto bg-[url('images/background1.jpg')] bg-cover bg-center p-8 ">
+        <div class="flex flex-wrap align-middle sm:justify-center md:justify-center lg:justify-between ">
+            <div>
+                <div class="flex flex-wrap -mx-3 mb-6 mt-5">
+                    <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                        <label class="block uppercase tracking-wide text-black text-xs font-bold mb-2"
+                            for="grid-first-name">
+                            First Name
+                        </label>
+                        <input
+                            class="appearance-none block w-full bg-gray-200 text-black border border-red-500 rounded py-3 px-4 mb-3 leading-snug focus:outline-none focus:bg-white"
+                            id="grid-first-name" type="text" placeholder="Jane">
+                        <p class="text-red-500 text-xs italic">Please fill out this field.</p>
+                    </div>
+                    <div class="w-full md:w-1/2 px-3">
+                        <label class="block uppercase tracking-wide text-black text-xs font-bold mb-2"
+                            for="grid-last-name">
+                            Last Name
+                        </label>
+                        <input
+                            class="appearance-none block w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                            id="grid-last-name" type="text" placeholder="Doe">
+                    </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                    <div class="w-full px-3">
+                        <label class="block uppercase tracking-wide text-black text-xs font-bold mb-2"
+                            for="grid-password">
+                            E-mail
+                        </label>
+                        <input
+                            class="appearance-none block w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                            id="email" type="email">
+                        <!-- <p class="text-gray-600 text-xs italic">Some tips - as long as needed</p> -->
+                    </div>
+                </div>
+                <div class="flex  -mx-3 mb-6">
+                    <div class="w-full px-3">
+                        <label class="block uppercase tracking-wide text-black text-xs font-bold mb-2"
+                            for="grid-password">
+                            Message
+                        </label>
+                        <textarea
+                            class=" no-resize appearance-none block w-full bg-gray-200 text-white border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
+                            id="message"></textarea>
+                        <!-- <p class="text-gray-600 text-xs italic">Re-size can be disabled by set by resize-none / resize-y / resize-x / resize</p> -->
+
+                    </div>
+                </div>
+                <div class="md:flex md:items-center">
+                    <div class="md:w-1/3">
+                        <div class="md:w-2/3 flex-1"></div>
+
+                    </div>
+                </div>
+                <button class=" bg-gray-600 text-white font-bold py-3 px-4 rounded my-5 w-full h custom-btn"
+                    type="button">
+                    Send
+                </button>
+            </div>
+            <div
+                class="mt-5 px-2 md:px-12 lg:px-16 xl:px-32 py-16 bg-gray-200 text-gray-900 rounded-lg shadow-lg max-w-lg">
+                <div class="flex flex-end float-right">
+                    <div>
+                        <h2 class="text-4xl lg:text-5xl font-bold leading-tight">Lets talk about everything!</h2>
+                        <div class="text-gray-700 mt-8">
+                            Hate forms? Send us an <span class="underline">email</span> instead.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </form>
+
+</body>
+<footer class=" bg-slate-200 ">
+    <div class="w-full max-w-screen-xl mx-auto p-2 md:py-8">
+        <div class="sm:flex sm:items-center sm:justify-between">
+            <!-- <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0"> -->
+            <img src="images/sofa-safari-logo.png" class="h-20 mr-3" alt="Sofa Safari Logo" />
+            <span class="self-center text-4xl font-bold whitespace-nowrap dark:text-black">Sofa
+                Safari</span>
+            </a>
+            <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                <li>
+                    <a href="#" class="mr-4 hover:underline md:mr-6 ">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="mr-4 hover:underline md:mr-6">About Us</a>
+                </li>
+                <li>
+                    <a href="#Gallery" class="mr-4 hover:underline md:mr-6 ">Gallery</a>
+                </li>
+                <li>
+                    <a href="#Contact" class="hover:underline">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023
+            <!-- <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a> -->
+            . All Rights Reserved.</span>
+    </div>
+</footer>
+
+</html>
